@@ -3,10 +3,11 @@
 }
 .body_page {
     padding: 20px 10px;
-    font-family: Helvetica;
+    font-family: 'Lora', serif;
     max-width: 2000px;
     margin: 0 auto;
     font-size: 1.4em;
+    overflow: scroll;
 }
 ol {
     display: block;
@@ -24,6 +25,7 @@ h1 {
     color: #294860;
     font-size: 2em;
     margin: 30px;
+    font-weight: bold;
 }
 h2 {
     font-size: 28px;
@@ -31,6 +33,11 @@ h2 {
     text-align: center;
     color: #294860;
     font-weight: normal;
+}
+a {
+  color: #222222;
+text-decoration: underline;
+text-decoration-style: dotted;
 }
 .lesson_describtion {
     background-color: #294860;
@@ -54,6 +61,7 @@ h2 {
 p {
     margin: 10px 0;
     font-weight: lighter;
+    line-height: 1.4;
 }
 .lesson_block_links {
     text-decoration: underline;
