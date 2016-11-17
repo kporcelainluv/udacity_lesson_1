@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+.body_page {
+    padding: 20px 10px;
+    font-family: Helvetica;
+    max-width: 2000px;
+    margin: 0 auto;
+    font-size: 1.4em;
+}
+ol {
+    display: block;
+    list-style-type: none;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    font-size: 20px;
+    line-height: 44px;
+}
+h1 {
+    text-align: center;
+    color: #294860;
+    font-size: 2em;
+    margin: 30px;
+}
+h2 {
+    font-size: 28px;
+    margin: 8px;
+    text-align: center;
+    color: #294860;
+    font-weight: normal;
+}
+.lesson_describtion {
+    background-color: #294860;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+}
+.lesson_header {
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.lesson_block {
+    background-color: #DFEAF1;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+}
+p {
+    margin: 10px 0;
+    font-weight: lighter;
+}
+.lesson_block_links {
+    text-decoration: underline;
+    cursor: auto;
+    font-weight: bold;
+}
+.lesson_block_bold {
+    font-family: Courier;
+    color: black;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+}
